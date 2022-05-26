@@ -42,7 +42,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Побудувати</string>
+     <string>Побудувати графік регресійної моделі</string>
     </property>
    </widget>
    <widget class="QPushButton" name="Button_points">
@@ -60,7 +60,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Нанести вхідні дані</string>
+     <string>Відобразити вхідні дані</string>
     </property>
    </widget>
    <widget class="QPushButton" name="Button_clear">
@@ -78,7 +78,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Очистити</string>
+     <string>Очистити графік</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -204,7 +204,25 @@
      </font>
     </property>
     <property name="text">
-     <string>Розрахувати</string>
+     <string>Розрахувати регресійну модель</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_input">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>250</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Імпортувати вхідні дані</string>
     </property>
    </widget>
   </widget>

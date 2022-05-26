@@ -20,7 +20,6 @@ private:
     Ui::MainWindow *ui;
     QVector<double> X,Y;
     Regression_model Best_model;
-    void read_input();
 
 
 private slots:
@@ -28,6 +27,7 @@ private slots:
      void on_build_clicked(void);
      void on_points_clicked(void);
      void on_solve_clicked(void);
+     void on_input_clicked(void);
 };
 
 
